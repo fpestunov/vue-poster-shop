@@ -23,10 +23,16 @@ npm i -S vue@2.5.17 // устанавливаем Вуе
 
 ## 6. Creating an instance of Vue
 
+## 7. Rendering data on the page
+
+
+## 8. Understanding directives
+https://ru.vuejs.org/v2/guide/index.html#Начало-работы
+https://ru.vuejs.org/v2/guide/syntax.html#Директивы
 
 ##
-##
-##
+<button v-on:click="total += 10"></button>
+<button v-on:click="addToCart"></button>
 ##
 ##
 ##

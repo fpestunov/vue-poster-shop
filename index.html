@@ -23,11 +23,12 @@
     <div class="main container">
         <div class="products">
             <p>Products go here.</p>
+            <button v-on:click="total += 10">Add to card</button>
         </div>
         <div class="cart">
             <h2>Shopping Cart</h2>
             <div>
-                Total: $0.00
+                Total: ${{ total }}.00
             </div>
         </div>
     </div>
