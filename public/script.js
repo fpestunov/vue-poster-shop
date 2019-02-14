@@ -7,11 +7,13 @@ new Vue({
         { title: "Product 2", id: 2},
         { title: "Product 3", id: 3},
         { title: "Product 4", id: 4}
-    ]
+    ],
+    cart: []
   },
   methods: {
-    addToCart: function () {
+    addToCart: function (product) {
         this.total += 9.99
+        console.log(product.id)
     }
   }
 });

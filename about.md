@@ -38,5 +38,12 @@ https://ru.vuejs.org/v2/guide/syntax.html#Директивы
 
 ## 11. Adding key to iterated products
 
+## 12. Creating the cart
+
+##
+##
+##
+##
+##
 ##
 ##
