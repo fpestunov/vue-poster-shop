@@ -30,10 +30,11 @@ npm i -S vue@2.5.17 // устанавливаем Вуе
 https://ru.vuejs.org/v2/guide/index.html#Начало-работы
 https://ru.vuejs.org/v2/guide/syntax.html#Директивы
 
-##
+## 9. Adding a method
 <button v-on:click="total += 10"></button>
 <button v-on:click="addToCart"></button>
-##
+
+## 10. Rendering the list of products
 ##
 ##
 ##
