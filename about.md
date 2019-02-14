@@ -40,9 +40,15 @@ https://ru.vuejs.org/v2/guide/syntax.html#Директивы
 
 ## 12. Creating the cart
 
-##
-##
-##
+## 13. Understanding reactivity
+- объясняем
+
+## 14. Vue Devtools
+- устанавливаем
+
+## 15. Adding products to the cart
+
+
 ##
 ##
 ##
