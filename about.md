@@ -35,6 +35,8 @@ https://ru.vuejs.org/v2/guide/syntax.html#Директивы
 <button v-on:click="addToCart"></button>
 
 ## 10. Rendering the list of products
-##
+
+## 11. Adding key to iterated products
+
 ##
 ##
