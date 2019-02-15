@@ -55,7 +55,10 @@ https://ru.vuejs.org/v2/guide/syntax.html#Директивы
 ## 18. Adding quantity to cart items
 
 ## 19. Cart items quantity logic
-##
+
+## 20. Understanding filters
+https://ru.vuejs.org/v2/guide/filters.html
+
 ##
 ##
 ##
