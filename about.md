@@ -52,5 +52,14 @@ https://ru.vuejs.org/v2/guide/syntax.html#Директивы
 
 ## 17. Hiding cart if empty
 
+## 18. Adding quantity to cart items
+
+## 19. Cart items quantity logic
+##
+##
+##
+##
+##
+##
 ##
 ##
