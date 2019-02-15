@@ -1,7 +1,7 @@
 new Vue({
   el: "#app",
   data: {
-    total: 12,
+    total: 0,
     products: [
         { title: "Product 1", id: 1, price: 8},
         { title: "Product 2", id: 2, price: 9},
@@ -28,6 +28,18 @@ new Vue({
             qty: 1
           });
         }
+    },
+    inc: function (item) {
+      item.qty++;
+      this.total += item.price;
+    },
+    dec: function (item) {
+      item.qty--;
+      this.total -= item.price;
+      if (item.qty <= 0) {
+        let itemIndex = this.cart.indexOf(item);
+        this.cart.splice(itemIndex, 1);
+      }
     }
   },
   filters: {

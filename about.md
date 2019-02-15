@@ -59,9 +59,13 @@ https://ru.vuejs.org/v2/guide/syntax.html#Директивы
 ## 20. Understanding filters
 https://ru.vuejs.org/v2/guide/filters.html
 
-##
-##
-##
+## 21. Formatting price
+https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Number/tofixed
+
+## 22. Adding quantity buttons to template
+
+## 23. Implementing inc and dec logic
+
 ##
 ##
 ##
