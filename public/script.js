@@ -13,7 +13,12 @@ new Vue({
   methods: {
     addToCart: function (product) {
         this.total += product.price
-        this.cart.push(product)
+        this.cart.push({
+          id: product.id,
+          title: product.title,
+          price: product.price,
+          qty: 1
+        })
     }
   }
 });
