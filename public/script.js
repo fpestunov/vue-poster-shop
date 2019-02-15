@@ -1,7 +1,7 @@
 new Vue({
   el: "#app",
   data: {
-    total: 1,
+    total: 12,
     products: [
         { title: "Product 1", id: 1, price: 8},
         { title: "Product 2", id: 2, price: 9},

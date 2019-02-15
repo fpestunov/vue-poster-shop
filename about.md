@@ -49,6 +49,8 @@ https://ru.vuejs.org/v2/guide/syntax.html#Директивы
 ## 15. Adding products to the cart
 
 ## 16. Displaying cart items
-##
+
+## 17. Hiding cart if empty
+
 ##
 ##
