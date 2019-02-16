@@ -66,7 +66,10 @@ https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Nu
 
 ## 23. Implementing inc and dec logic
 
-##
+## 24. Adding search button
+<form class="search-bar" v-on:submit.prevent="onSubmit()">
+prevent - предотвращает submit формы
+
 ##
 ##
 ##

@@ -8,7 +8,8 @@ new Vue({
         { title: "Product 3", id: 3, price: 9},
         { title: "Product 4", id: 4, price: 10}
     ],
-    cart: []
+    cart: [],
+    search: ""
   },
   methods: {
     addToCart: function (product) {
@@ -40,6 +41,10 @@ new Vue({
         let itemIndex = this.cart.indexOf(item);
         this.cart.splice(itemIndex, 1);
       }
+    },
+    onSubmit: function () {
+      console.log("Search button pressed.")
+      console.log(this.search)
     }
   },
   filters: {
