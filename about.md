@@ -86,7 +86,10 @@ We definitely could, but in a simple project like this, I like Vue Resource beca
 npm i -S vue-resource@1.5.1
 <script type="text/javascript" src="node_modules/vue-resource/dist/vue-resource.js"></script>
 Перезагружаем и проверяем в браузере Network/JS должен загрузиться этот модуль.
-##
-##
+
+## 29. AJAX call for products
+Пишем запрос, смотрим ответ и все... работает!
+
+## 30. Replacing dummy items
 ##
 ##

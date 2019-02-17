@@ -2,12 +2,7 @@ new Vue({
   el: "#app",
   data: {
     total: 0,
-    products: [
-        { title: "Product 1", id: 1, price: 8},
-        { title: "Product 2", id: 2, price: 9},
-        { title: "Product 3", id: 3, price: 9},
-        { title: "Product 4", id: 4, price: 10}
-    ],
+    products: [],
     cart: [],
     search: ""
   },
@@ -46,10 +41,9 @@ new Vue({
       let path = "/search?q=".concat(this.search);
       this.$http.get(path)
         .then(function (response) {
-          console.log(response)
+          this.products = response.body;
+          //console.log(response)
         });
-      console.log("Search button pressed.")
-      console.log(this.search)
     }
   },
   filters: {
