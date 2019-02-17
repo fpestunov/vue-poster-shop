@@ -91,5 +91,13 @@ npm i -S vue-resource@1.5.1
 Пишем запрос, смотрим ответ и все... работает!
 
 ## 30. Replacing dummy items
+
+## 31. Adding product image & price
+
+##
+##
+##
+##
+##
 ##
 ##
