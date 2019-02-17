@@ -43,6 +43,11 @@ new Vue({
       }
     },
     onSubmit: function () {
+      let path = "/search?q=".concat(this.search);
+      this.$http.get(path)
+        .then(function (response) {
+          console.log(response)
+        });
       console.log("Search button pressed.")
       console.log(this.search)
     }

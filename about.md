@@ -70,6 +70,23 @@ https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Nu
 <form class="search-bar" v-on:submit.prevent="onSubmit()">
 prevent - предотвращает submit формы
 
+## 25. Adding search input
+
+## 26. Overview of vue-resource
+https://github.com/pagekit/vue-resource
+We're going to be adding a third-party library to our project now called Vue Resource. This is a client used to make HTTP requests and is very useful for doing AJAX in your Vue app.
+
+If you've done work with AJAX before, you might be wondering why we don't use Axios, which is a more popular library.
+
+We definitely could, but in a simple project like this, I like Vue Resource because it integrates with Vue very nicely as you'll see.
+
+## 27. Overview of API
+
+## 28. Adding vue-resource to project
+npm i -S vue-resource@1.5.1
+<script type="text/javascript" src="node_modules/vue-resource/dist/vue-resource.js"></script>
+Перезагружаем и проверяем в браузере Network/JS должен загрузиться этот модуль.
+##
 ##
 ##
 ##
