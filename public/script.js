@@ -4,7 +4,8 @@ new Vue({
     total: 0,
     products: [],
     cart: [],
-    search: ""
+    search: "",
+    lastSearch: "",
   },
   methods: {
     addToCart: function (product) {
@@ -42,6 +43,7 @@ new Vue({
       this.$http.get(path)
         .then(function (response) {
           this.products = response.body;
+          this.lastSearch = this.search;
           //console.log(response)
         });
     }
