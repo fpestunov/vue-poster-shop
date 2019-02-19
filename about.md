@@ -94,9 +94,18 @@ npm i -S vue-resource@1.5.1
 
 ## 31. Adding product image & price
 
-##
-##
-##
+## 33. Adding the loading message
+Сделать вывод сообщения, что данные загружаются.
+setTimeout() - Для имитации загрузки данных
+
+Странно, но "Loading..." не исчезает!!!
+
+## 34. Understanding lifecycle hooks
+https://ru.vuejs.org/v2/guide/instance.html#Хуки-жизненного-цикла-экземпляра
+
+##  35. Default search on page load
+Сделаем поиск "cat" по умолчанию.
+
 ##
 ##
 ##

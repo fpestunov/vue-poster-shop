@@ -27,6 +27,9 @@
     </div>
     <div class="main container">
         <div class="products">
+            <div v-show="loading">
+                Loading...
+            </div>
             <div class="search-results" v-if="lastSearch">
                 Found {{ products.length }} results for term <em>{{ lastSearch }}</em>.
             </div>
