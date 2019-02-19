@@ -106,7 +106,10 @@ https://ru.vuejs.org/v2/guide/instance.html#Хуки-жизненного-цик
 ##  35. Default search on page load
 Сделаем поиск "cat" по умолчанию.
 
-##
-##
+## 36. Understanding transitions
+https://ru.vuejs.org/v2/guide/transitions.html
+
+## 37. Fading in cart total
+
 ##
 ##
