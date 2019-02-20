@@ -111,5 +111,12 @@ https://ru.vuejs.org/v2/guide/transitions.html
 
 ## 37. Fading in cart total
 
+## G. Scroll loading products
+##  40. Adding a sensor element
+npm i -S scrollmonitor@1.2.4
+
+
+##
+##
 ##
 ##
