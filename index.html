@@ -11,7 +11,10 @@
     <link rel="stylesheet" type="text/css" href="/public/style.css">
 </head>
 <body>
-<div id="app">
+<div id="app" v-cloak>
+    <div id="loading">
+      Loading page...
+    </div>    
     <div class="header">
         <div class="container">
             <div class="title">
@@ -28,7 +31,7 @@
     <div class="main container">
         <div class="products">
             <div v-show="loading">
-                Loading...
+                We are searching posters...
             </div>
             <div class="search-results" v-if="lastSearch">
                 Found {{ results.length }} results for term <em>{{ lastSearch }}</em>.

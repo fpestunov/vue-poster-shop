@@ -1,6 +1,7 @@
 const LOAD_NUMBER = 4;
 let watcher;
 
+setTimeout(function () {
 new Vue({
   el: "#app",
   data: {
@@ -55,7 +56,7 @@ new Vue({
             this.lastSearch = this.search;
             this.appendResults();
             this.loading = false;
-          }.bind(this), 3000);
+          }.bind(this), 2000);
           //console.log(response)
         });
     },
@@ -94,3 +95,4 @@ new Vue({
     }
   }
 });
+}, 3000);
